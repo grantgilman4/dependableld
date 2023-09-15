@@ -24,7 +24,7 @@ const Logo = () => {
           alt="Dependable Layout & Design"
           width="220"
           height="0"
-          className="relative z-20 p-4"
+          className="relative z-10 p-4"
         />
       </Link>
   );

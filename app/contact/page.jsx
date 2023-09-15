@@ -1,15 +1,15 @@
 import React from "react";
-
+import { TfiHandPointDown } from "react-icons/tfi"
 const Contact = () => {
   return (
-    <div className="bg-slate-600 bg-cover relative w-full h-screen flex justify-center items-center">
-    <form className="flex flex-col gap-6 bg-white border rounded w-[60vw] h-[60vh] shadow-lg justify-evenly p-4">
-        <h2 className="text-3xl font-bold text-center p-2">Contact Us</h2>
-        <input className="bg-slate-200 rounded p-2" type="name" name="name" id="name" placeholder="Name" autoComplete="on" required></input>
-        <input className="bg-slate-200 rounded p-2"type="email" name="email" id="email" placeholder="Email Address" autoComplete="on" required></input>
-        <textarea className="bg-slate-200 rounded p-2 h-[20rem]" name="message" id="message" placeholder="Type your message here" autoComplete="on" required></textarea>
-        <button type="submit" disabled></button>
-    </form>
+    <div className="bg-slate-200 bg-cover relative w-full h-screen flex justify-center items-center">
+      <div className="flex-col justify-evenly items-center text-center text-lg font-semibold">
+      <h3 className="text-center text-orange-600 text-3xl font-bold">We'd love to hear from you!</h3>
+      <p>Feel free to inquiry via Phone or Email Below.</p>
+      <div className="flex justify-center p-10">
+      <TfiHandPointDown className="animate-bounce text-orange-600" size={150}></TfiHandPointDown>
+        </div>
+      </div>
     </div>
   )
 };

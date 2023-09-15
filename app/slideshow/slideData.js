@@ -1,17 +1,38 @@
 export const slideData = [
     {
-        image: 'https://images.unsplash.com/photo-1548504769-900b70ed122e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80'
+        image: '/images/samples/Always Piper_Biz card2015-1.jpg'
     },
     {
-        image: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1833&q=80'
+        image: '/images/samples/Carl Brandt ad.jpg'
     },
     {
-        image: 'https://images.unsplash.com/photo-1548504769-900b70ed122e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80'
+        image: '/images/samples/Claytons decals.jpg'
     },
     {
-        image: 'https://images.unsplash.com/photo-1548504769-900b70ed122e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80'
+        image: '/images/samples/claytons.jpg'
     },
     {
-        image: 'https://images.unsplash.com/photo-1548504769-900b70ed122e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80'
+        image: '/images/samples/hamren cal.jpg'
+    },
+    {
+        image: '/images/samples/Isabellas tee_v3.jpg'
+    },
+    {
+        image: '/images/samples/ITC Summer catalog p1.jpg'
+    },
+    {
+        image: '/images/samples/June 2020 FV cover.jpg'
+    },
+    {
+        image: '/images/samples/Kate Huntress biz card 2015.jpg'
+    },
+    {
+        image: '/images/samples/MofM sample covers.jpg'
+    },
+    {
+        image: '/images/samples/Ravens ad.jpg'
+    },
+    {
+        image: '/images/samples/timber menu.jpg'
     },
 ]
