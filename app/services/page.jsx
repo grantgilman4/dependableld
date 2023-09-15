@@ -9,27 +9,27 @@ const Services = () => {
           <div className="grid lg:grid-cols-6 sm:grid-cols-3 sm:grid-cols-2 justify-evenly items-center text-center font-bold">
             <div className="p-10 flex flex-col items-center">
               <p>Graphic Design</p>
-              <Image src='/servicesIcons/design.png' width={100} height={200 }/>
+              <Image src='/servicesIcons/design.png' width={100} height={200 } alt='design'/>
             </div>
             <div className="p-10 flex flex-col items-center">
               <p>Page Layout</p>
-              <Image src='/servicesIcons/layout.png' width={100} height={250} />
+              <Image src='/servicesIcons/layout.png' width={100} height={250} alt='layout'/>
               </div>
             <div className="p-10 flex flex-col items-center">
             <p>Proofreading</p>
-              <Image src='/servicesIcons/proofread.png' width={100} height={250} />
+              <Image src='/servicesIcons/proofread.png' width={100} height={250} alt='proofreading'/>
             </div>
             <div className="p-10 flex flex-col items-center">
               <p>Binding & Laminating</p>
-              <Image src='/servicesIcons/binding.png' width={100} height={250 }/>
+              <Image src='/servicesIcons/binding.png' width={100} height={250 } alt='bind & lam'/>
             </div>
             <div className="p-10 flex flex-col items-center">
               <p>Printing</p>
-              <Image src='/servicesIcons/printing.png' width={100} height={250} />
+              <Image src='/servicesIcons/printing.png' width={100} height={250} alt='print'/>
               </div>
             <div className="p-10 flex flex-col items-center">
               <p>Mailing Services</p>
-              <Image src='/servicesIcons/mailing.png' width={100} height={250} />
+              <Image src='/servicesIcons/mailing.png' width={100} height={250} alt='mailing'/>
             </div>
           </div>
           </div>
