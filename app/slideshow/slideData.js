@@ -6,9 +6,6 @@ export const slideData = [
         image: '/images/samples/Carl Brandt ad.jpg'
     },
     {
-        image: '/images/samples/Claytons decals.jpg'
-    },
-    {
         image: '/images/samples/claytons.jpg'
     },
     {

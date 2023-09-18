@@ -5,9 +5,9 @@ import { slideData } from "./slideData";
 import {FaArrowCircleLeft, FaArrowCircleRight} from "react-icons/fa"
 import Link from "next/link";
 
-const Slideshow = ({slides}) => {
+const Slideshow = () => {
     const [current, setCurrent] = useState(0);
-    const length = slides.length
+    const length = slideData.length
 
     const nextSlide = () => {
         setCurrent(current === length -1 ? 0 : current + 1)
@@ -15,9 +15,7 @@ const Slideshow = ({slides}) => {
     const previousSlide = () => {
         setCurrent(current === 0 ? length - 1 : current - 1)
     }
-    if (!Array.isArray(slides) || slides.length <= 0) {
-        return null;
-    }
+
     return (
         <div id='gallery' className="w-screen bg-white">
             <h3 className="bg-gradient-to-b from-orange-600 to-orange-700 text-center text-white text-2xl font-bold py-2">Work Samples</h3>
