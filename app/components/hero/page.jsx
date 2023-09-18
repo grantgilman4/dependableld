@@ -8,7 +8,7 @@ const Hero = ({heading}) => {
     <section>
         {/* Overlay */}
         <div className="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover custom-image">
-            <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/25 z-[2]"/>
+            <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/30 z-[2]"/>
             <div className="p-5 text-white z-[2] mt-[-10rem] text-center">
                 <h1 className="text-[5rem] font-bold">HELLO</h1>
                 <h2 className="text-[2rem] font-bold py-3">{heading}</h2>
