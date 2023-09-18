@@ -8,7 +8,7 @@ const Navigation = () => {
 
     const [nav, setNav] = useState(false);
     const [color, setColor] = useState('transparent');
-    const [textColor, setTextColor] = useState('white');
+    const [textColor, setTextColor] = useState('#FF4D00');
 
     const handleNav = () => {
         setNav(!nav)
@@ -32,10 +32,10 @@ const Navigation = () => {
         <div className="max-w-[1240px] m-auto flex justify-between items-center px-4 mb-0 text-black h-">
             <Logo />
             <ul style={{color: `${textColor}`}} className="hidden sm:flex font-semibold text-lg">
-                <li className="p-4 hover:text-orange-600">
+                <li className="p-4 hover:text-black">
                     <Link href='/collections'>Gallery</Link>
                 </li>
-                <li className="p-4 pr-6 hover:text-orange-600">
+                <li className="p-4 pr-6 hover:text-black">
                     <Link href='/about'>About</Link>
                 </li>
                 <li className="p-4 ">

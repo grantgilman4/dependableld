@@ -35,6 +35,7 @@ const Slideshow = ({slides}) => {
                                 <p className="font-semibold"><Link href="/collections" className="underline hover:text-orange-600">See more</Link></p>
                             <Image 
                             src={slide.image} 
+                            style={{width: "auto", height: "auto"}}
                             width="500"
                             height="200" 
                             object-fit='cover'
@@ -55,4 +56,4 @@ const Slideshow = ({slides}) => {
     );
 };
 
-export default Slideshow
+export default Slideshow;
