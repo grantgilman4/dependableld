@@ -27,7 +27,7 @@ const Slideshow = () => {
                         <div className="relative">
                             <FaArrowCircleLeft 
                             onClick={previousSlide}
-                            className='absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]' size={40} color="#ffffff"/>
+                            className='absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]' size={40} />
                         {index === current && (
                             <div className="pb-8">
                                 <p className="font-semibold"><Link href="/collections" className="underline hover:text-orange-600">See more</Link></p>
